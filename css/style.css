@@ -44,11 +44,11 @@
 }
 
 .border-style {
-  border: 3px dashed black;
+  border: 2px dashed black;
 }
 
 .border-right {
-  border-right: 4px dashed black;
+  border-right: 3px dashed black;
 }
 
 .bg-pink {
@@ -76,12 +76,12 @@
 
 .bg-darkpink {
   background-color: #f08180;
-  border: 3px dashed black;
+  border: 2px dashed black;
 }
 
 .bg-aqua {
   background-color: #20b3aa;
-  border: 3px dashed white;
+  border: 2px dashed white;
 }
 
 header {
@@ -96,7 +96,7 @@ nav ul {
   justify-content: space-between;
   align-items: center;
   width: 1200px;
-  height: 50px;
+  height: 60px;
   margin: 0 auto;
 }
 
@@ -134,5 +134,15 @@ nav ul li a {
 
 .footer-mod {
   display: flex;
+  background-color: #7fffd4;
   justify-content: space-between;
+  align-items: center;
+  width: 1200px;
+  height: 80px;
+  margin: 0 auto;
+}
+
+.bottom {
+  font-size: 1.5em;
+  text-transform: capitalize;
 }
