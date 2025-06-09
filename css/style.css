@@ -6,20 +6,34 @@
 
 .container {
   max-width: 1200px;
-  margin: 50px auto;
+  margin: 0px auto;
+  padding: 50px 0px;
   display: flex;
 }
 
 .container-bsm {
   background-color: #00018b;
-  padding: 30px 0px;
+  padding: 50px 0px;
+}
+
+.container-bgreen {
+  background-color: #d3d3d3;
+  padding: 50px 0px;
+
 }
 
 .container-sm {
-  width: 900px;
+  max-width: 900px;
   height: 400px;
   background-color: #ef82ed;
   border-radius: 15px;
+  margin: 0 auto;
+}
+
+.container-green {
+  max-width: 1200px;
+  height: 900px;
+  background-color: #218b21;
   margin: 0 auto;
 }
 
@@ -37,10 +51,6 @@
 
 .bg-blue {
   background-color: #1e90ff;
-}
-
-.bg-white {
-  background-color: white;
 }
 
 .bg-gray {
@@ -74,15 +84,15 @@ nav ul li a {
   text-decoration: none;
 }
 
-.col-35 {
-  width: 35%;
+.col-40 {
+  width: 40%;
 }
 
-.col-65 {
-  width: 65%;
+.col-60 {
+  width: 60%;
 }
 
-.col-35.bg-pink,
-.col-65.bg-blue {
+.col-40.bg-pink,
+.col-60.bg-blue {
   height: 500px;
 }
