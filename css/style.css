@@ -71,14 +71,17 @@
 
 .bg-black {
   background-color: #23272a;
+  padding: 50px 0;
 }
 
 .bg-darkpink {
   background-color: #f08180;
+  border: 3px dashed black;
 }
 
 .bg-aqua {
   background-color: #20b3aa;
+  border: 3px dashed white;
 }
 
 header {
@@ -116,11 +119,20 @@ nav ul li a {
   width: 60%;
 }
 
-.col-20 {
-  width: 20%;
+.col-15 {
+  width: 17%;
+}
+
+.col-34 {
+  width: 34%;
 }
 
 .col-40.bg-pink,
 .col-60.bg-blue {
   height: 500px;
+}
+
+.footer-mod {
+  display: flex;
+  justify-content: space-between;
 }
